@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,700,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+/* Barra de navegación */
+.nav-bar{
+    background-color: #c12127;
+    height: 40px;
+    font-family: Poppins;
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-bar a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.top-left{
+    display: inline-block;
+}
+
+.top-links{
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Primera sección */
+.header{
+    font-size: 1.2em;
+    font-family: Poppins;
+    padding: 10px 5px 0 5px;
+    background-image: url("../images/city-scape.svg");
+    height: 450px;
+    color: white;
+}
+
+.search-bar{
+    display: inline-block;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    background-color: transparent;
+}
+
+.search-bar input{
+    height: 40px;
+    width: 85%;
+    font-size: 1em;
+    padding: 10px;
+    margin: 0 5px 0 15px;
+    background-color: rgb(32, 101, 136);
+    border: 1px solid rgb(80,111,139);
+    color:white;
+}
+
+.search-bar img{
+    width: 9%;
+}
+
+.search-bar button{
+    height: 40px;
+    width:40px;
+    background-color: rgb(32, 101, 136);
+    border: 1px solid rgb(80,111,139);
+}
+
+.signup{
+    display: inline-block;
+    background-color: transparent;
+    height: 40px;
+}
+
+.signup img{
+    vertical-align: middle;
+    width: 30%;
+}
+
+.signup ul{
+    float: right;  
+}
+
+.signup li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.signup a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Primera sección */
+.search-section{
+    background-color: rgb(32, 101, 136);
+    height: 40px;
+    display:flex;
+    align-content: center;
+}
+
+.text{
+    width: 43%;
+    margin: 0 20%;
+    padding-top: 80px;
+}
+
+.text button{
+    background-color: rgb(240,146, 51);
+    border: 0px;
+    width: 200px;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1em;
+    font-family: Poppins;
+    margin-top: 50px;
+    border-radius: 35px;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 300;
+    font-family: Poppins;
+}
+
+/* Segunda sección */
+.collaboration{
+    background-color: rgb(39, 53, 71);
+    height: 510px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 100%;
+    height: 50%;
+    display:flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-items: center;
+    margin-left: 200px;
+
+}
+
+.img{
+    width: 35%;    
+}
+
+.txt{
+    width: 46%;
+    padding-left: 10px;
+    font-family: Poppins;
+    color: white;
+    margin-left: 50px;
+}
+
+.txt button{
+    background-color: rgb(203, 56, 55);
+    width: 200px;
+    height: 50px;
+    font-size: 1.2em;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.txt p{
+    margin-top: 15px;
+}
+
+.txt a{
+    text-decoration: none;
+    color: white;
+}
+
+.txt ul{
+    font-size: 1.2em;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 2.2em;
+    font-family: Poppins;
+    color: white;
+}
+
+/* Tercera sección */
+.what-is-npm{
+    background-image: url("../images/forklift.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+}
+
+.what-is-npm div{
+    width: 400px;
+    position: absolute;
+    top: 1150px;
+    left: 15%;
+}
+
+.what-is-npm p{
+    font-size:1em;
+    color:white;
+    font-family: Poppins;
+    line-height: 1.3em;
+}
+
+.what-is-npm button{
+    background-color: rgb(49, 68, 88);
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    font-family: Poppins;
+}
+
+/* Cuarta sección */
+h3{
+    font-family: Poppins;
+    font-size: 1.8em;
+    line-height: 2.5em;
+    color: rgb(83, 88, 98);
+}
+
+h4{
+    font-family: Poppins;
+    font-size: 1.4em;
+    line-height: 2.5em;
+
+}
+
+.footer{
+    width:100%;
+    text-align: center;
+}
+
+#heading{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+#heading p{
+    font-size: 1.1em;
+    color: rgb(135, 145, 156);
+    font-family: Poppins;
+}
+
+#icons{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 35px;
+
+}
+
+.icons{
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+
+.icons p{
+    font-family: Poppins;
+    font-size: 1em;
+    color: rgb(135, 145, 156);
+
+}
+
+.icons a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 1em;
+    color: rgb(208, 74, 73);
+}
